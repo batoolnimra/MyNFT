@@ -26,7 +26,7 @@ A simple ERC-721 NFT (Non-Fungible Token) smart contract written in **Solidity**
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/batoolnimra/MyNFT.git
+git clone https://github.com/your username/MyNFT.git
 cd MyNFT
 
 2. Install Dependencies
@@ -48,7 +48,8 @@ PRIVATE_KEY=your_wallet_private_key
 bash
 Copy
 Edit
-npx hardhat compile
+npx hardhat compile 
+
 5. Run Local Tests (Optional)
 bash
 Copy
