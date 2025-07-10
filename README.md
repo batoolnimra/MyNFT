@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# MyNFT - ERC-721 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a simple ERC-721 NFT (Non-Fungible Token) smart contract written in Solidity and deployed using Hardhat.
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- Mint NFTs with a token URI
+- Deployable to local or testnet
+- Metadata hosted via IPFS (Pinata)
+
+## Tech Stack
+
+- Solidity
+- Hardhat
+- Ethers.js
+- IPFS via Pinata
+
+## Setup
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/batoolnimra/MyNFT.git
+cd MyNFT
